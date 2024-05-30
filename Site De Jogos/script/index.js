@@ -1,3 +1,5 @@
+// const e = require("express")
+
 const card = document.querySelectorAll('.desaparecer')
 
 
@@ -13,3 +15,6 @@ entries.forEach(entry => {
 })
 
 card.forEach( Element => myobserver.observe(Element));
+
+
+
