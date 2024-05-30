@@ -17,4 +17,3 @@ entries.forEach(entry => {
 card.forEach( Element => myobserver.observe(Element));
 
 
-

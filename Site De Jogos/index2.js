@@ -48,7 +48,7 @@ app.post("/send_email", function(req, res){
             res.status(500).json({ success: false, error: error.message }); // Envie uma resposta JSON indicando erro
         } else {
             console.log("Email enviado: " + info.response);
-            res.redirect("/"); // Envie uma resposta JSON indicando sucesso
+            res.redirect("/#formu"); 
         }  
 
         
