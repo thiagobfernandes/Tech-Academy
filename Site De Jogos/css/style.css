@@ -1,4 +1,4 @@
-/* @import url("main.css"); */
+@import url("main.css");
 html {
   scroll-behavior: smooth; }
 
@@ -13,6 +13,9 @@ html {
   filter: blur(0);
   transition: all 1s;
   transform: translateX(0); }
+
+.destaques {
+  margin-top: 200px; }
 
 header {
   background-color: #0d0c14;
@@ -82,6 +85,7 @@ main {
   main .formulario textarea {
     resize: none; }
   main .formulario .contato {
+    padding-top: 1px;
     margin-top: 20px;
     font-family: "Oswald", sans-serif; }
 

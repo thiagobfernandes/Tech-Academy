@@ -17,3 +17,5 @@ entries.forEach(entry => {
 card.forEach( Element => myobserver.observe(Element));
 
 
+const formulario = document.getElementById('formu');
+
